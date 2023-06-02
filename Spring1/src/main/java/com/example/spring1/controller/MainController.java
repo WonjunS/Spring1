@@ -10,5 +10,10 @@ public class MainController {
 	public String mainPage() {
 		return "index";
 	}
+	
+	@GetMapping("/accessError")
+	public void accessError() {
+		
+	}
 
 }
